@@ -1,0 +1,193 @@
+
+
+h2{
+	font-family: "times-new-roman";
+	font-size: 1.5em;
+}
+
+h4{
+	font-family: 'Righteous', cursive;
+}
+
+h5{
+	font-size: 1.5em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+
+#guion{
+	font-family: "times-new-roman";
+}
+
+#trabajofinal{
+	font-family: "times-new-roman";
+}
+
+#creditos{
+	font-family: "times-new-roman";
+}
+
+#menu{
+	font-family: "times-new-roman";
+}
+
+#ventana1{
+
+
+}
+
+
+.asistente{
+	position: fixed;
+	left: 0;
+	width: 15%;
+	bottom: 0;
+	z-index: 1;
+}
+.asistente .nube{
+	display: none;
+}
+.modal-body{
+	background: #810202 ;
+}
+
+#ventana1.modal{
+	width: 100%!important;
+	
+}
+#ventana1 .modal-dialog{
+	width: 100%!important;
+	
+
+}
+#ventana1 .modal-content{
+	width: 100%!important;
+	
+
+}
+.asistente img{
+	width: 100%;
+}
+
+.asistente .globo{
+	width: 130%;
+	margin-left: 9em;
+	margin-bottom: -15em;
+	
+}
+
+.globo img{
+	width: 100%;
+}
+
+#pregunta{
+	text-align: center;
+	border-radius: 5em;
+	padding: 3em;
+	width: 130%;
+	margin-left: 9em;
+	margin-bottom: -5em;
+}
+
+.pixeles{
+position: absolute;
+width: 23%;
+top: 8px;
+left: 700px;
+z-index: 2;
+filter: opacity(100);
+transition:linear all 1s;
+cursor: pointer;
+}
+
+.pixeles:hover{
+ filter: opacity(0);	
+ transition:linear all 1s;
+}
+
+.teatroa{
+position: absolute;
+width: 50%;
+top: 25px;
+left: 350px;
+z-index: 1;
+}
+
+.ladrillos{
+width: 100%;
+z-index: -1;
+}
+
+.arriba{
+	display:none;
+	bottom:0;
+	cursor: pointer;
+	position: fixed;
+	right: 0;
+	width:120px;
+	z-index:100;
+
+}
+
+.arriba img{
+	width: 100%
+}
+
+.logo{
+	width: 100px;
+	filter: grayscale(0);
+	transition: linear all 0.5s;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.logo:hover{
+	filter: grayscale(1);
+	transition:linear all 0.5s;
+	transform: rotate(15deg);
+}
+
+.bg-dark{
+	background: #0D0101 !important
+}
+
+
+.logo{
+
+	left: 10px;
+}
+
+.navbar li a{
+	font-size: 1.5em;
+}
+
+.teatro{
+	border-bottom: solid gray;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+
+
+.comic{
+
+	width: 100%;
+
+}
+
+@media screen and (max-width: 400px){
+
+	nav .logo{
+		width: 80px !important;
+	}
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+}
